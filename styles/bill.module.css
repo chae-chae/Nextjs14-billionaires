@@ -1,0 +1,26 @@
+.bill {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+  cursor: pointer;
+  place-items: center;
+}
+
+.bill img {
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bill img {
+  opacity: 0.7;
+}
+
+.bill img:hover {
+  opacity: 1;
+}
+
+.bill a {
+  text-align: center;
+}
