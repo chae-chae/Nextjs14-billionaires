@@ -15,7 +15,7 @@ export async function generateMetadata({ params: { id } }: IParams) {
 export default function PersonDetailPage({ params: { id } }: IParams) {
   return (
     <div>
-      <Suspense fallback={<h2>Loading billionares' info</h2>}>
+      <Suspense fallback={<h2>Loading billionaires' info</h2>}>
         <BillInfo id={id} />
       </Suspense>
     </div>

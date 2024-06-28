@@ -3,8 +3,8 @@ import "../styles/global.css";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Next Billionares",
-    default: "Next Billionares",
+    template: "%s | Next billionaires",
+    default: "Next billionaires",
   },
   description: "practice next 14",
 };
