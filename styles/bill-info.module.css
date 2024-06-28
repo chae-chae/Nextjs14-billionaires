@@ -1,3 +1,9 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -8,7 +14,7 @@
 
 .sqImg {
   border-radius: 20px;
-  max-width: 70%;
+  max-width: 80%;
   place-self: center;
 }
 
@@ -23,4 +29,26 @@
   flex-direction: column;
   margin-top: 20px;
   gap: 20px;
+}
+
+.info h3 {
+  font-size: 20px;
+}
+
+.info p {
+  font-size: 14px;
+}
+
+.faContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faContainer h5 {
+  font-size: 16px;
+}
+
+.faContainer p {
+  font-size: 14px;
 }

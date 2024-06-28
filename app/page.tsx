@@ -22,6 +22,7 @@ export default async function HomePage() {
           id={bill.id}
           squareImage={bill.squareImage}
           name={bill.name}
+          industries={bill.industries}
         />
       ))}
     </div>

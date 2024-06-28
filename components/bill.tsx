@@ -8,9 +8,15 @@ interface IBillProps {
   name: string;
   id: string;
   squareImage: string;
+  industries: string;
 }
 
-export default function Bill({ name, id, squareImage }: IBillProps) {
+export default function Bill({
+  name,
+  id,
+  squareImage,
+  industries,
+}: IBillProps) {
   const router = useRouter();
   const onClick = () => {
     router.push(`/person/${id}`);
@@ -20,6 +26,7 @@ export default function Bill({ name, id, squareImage }: IBillProps) {
       <img src={squareImage} alt={name} onClick={onClick} />
       <Link prefetch href={`/person/${id}`}>
         {name}
+        <p>{industries}</p>
       </Link>
     </div>
   );

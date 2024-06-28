@@ -24,3 +24,7 @@
 .bill a {
   text-align: center;
 }
+
+.bill p {
+  font-size: 12px;
+}
